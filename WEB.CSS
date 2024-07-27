@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #FFCCCC; /* Ð? nh?t */
+    background-color: #FFCCCC; /* Do nhat */
     padding: 1rem 0;
     border-bottom: 1px solid #ddd;
 }
@@ -42,11 +42,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #FF6666; /* Ð? d?m hon */
+    color: #FF6666; /* Do dam hon */
 }
 
 .hero {
-    background: url('https://via.placeholder.com/1600x600') no-repeat center center fixed;
+    background: url('dalat-camp-da-lat-dulichchat-26.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 60vh;
     position: relative;
@@ -66,7 +66,7 @@ nav ul li a:hover {
 }
 
 .btn-primary {
-    background-color: #FF6666; /* Ð? d?m hon */
+    background-color: #FF6666; /* Do dam hon */
     color: white;
     padding: 0.5rem 1.5rem;
     border: none;
@@ -109,8 +109,27 @@ nav ul li a:hover {
     height: auto;
 }
 
+.product-image-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.product-image-slider img {
+    width: 100%;
+    height: auto;
+    display: none;
+    transition: opacity 0.5s ease;
+}
+
+.product-image-slider img.active {
+    display: block;
+    opacity: 1;
+}
+
 .btn-secondary {
-    background-color: #FF9999; /* Ð? nh?t hon */
+    background-color: #FF9999; /* Do nhat hon */
     border: none;
     color: white;
     padding: 0.5rem 1rem;
@@ -125,7 +144,7 @@ nav ul li a:hover {
 }
 
 .testimonial {
-    background-color: #FFDDDD; /* Ð? nh?t nh?t hon */
+    background-color: #FFDDDD; /* Do nhat nhat hon */
     padding: 2rem 0;
     text-align: center;
 }
@@ -145,7 +164,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #FFCCCC; /* Ð? nh?t */
+    background-color: #FFCCCC; /* Do nhat */
     padding: 1rem 0;
     text-align: center;
     border-top: 1px solid #ddd;
