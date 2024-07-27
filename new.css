@@ -46,7 +46,7 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: url(popmartvn.github.com/dalat-camp-da-lat-dulichchat-26.jpg) no-repeat center center fixed;
+    background: url('dalat-camp-da-lat-dulichchat-26.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 60vh;
     position: relative;
